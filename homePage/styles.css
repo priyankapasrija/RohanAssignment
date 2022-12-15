@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 360px;
+  height: 569px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  height: 2.4rem;
+  background-color: #dc3333;
+}
+header h2 {
+  margin: 0px;
+  padding-top: 0.66rem;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#squares {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  position: relative;
+  top: 0.75rem;
+}
+
+#squares div {
+  height: 1.313em;
+  width: 1.313em;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+.square {
+  background-color: red;
+}
+
+#green-square {
+  background-color: green;
+}
+
+#dupont {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 1.188rem;
+}
+
+#dupont sup {
+  font-size: 0.31rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+#paragraph {
+  background-color: #535151;
+  color: white;
+}
+
+#paragraph h3,
+p {
+  margin: 0;
+  padding: 3% 1.5% 0.9% 1.5%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+nav div {
+  text-align: center;
+  background: linear-gradient(140deg, #d0c8c8, white);
+}
+
+i {
+  padding-top: 0.93rem;
+}
+
+div p {
+  font-weight: 590;
+  padding: 0.33rem;
+}
