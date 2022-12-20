@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 360px;
-  height: 569px;
+  width: 100%;
+  height: auto;
   border: 2px solid black;
   box-sizing: border-box;
   margin: 0;
@@ -88,4 +88,26 @@ i {
 div p {
   font-weight: 590;
   padding: 0.33rem;
+}
+
+.nav-item{
+  height: 18vh;
+  border:1px solid red;
+}
+
+.nav-item > i{
+  color: dimgrey;
+  font-size: 2.5rem;
+  margin: 5px;
+}
+
+.brand-image {
+  min-height: 120px;
+  max-height: 220px;
+}
+
+/*Common*/
+.text-bold{
+  font-weight: bold;
+  font-size:1.125rem;
 }
