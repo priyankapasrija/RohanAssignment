@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 360px;
-  height: 569px;
+  width: 100%;
+  height: auto;
   border: 2px solid black;
   box-sizing: border-box;
   margin: 0;
