@@ -95,6 +95,12 @@ div p {
   border:1px solid red;
 }
 
+.nav-item > i{
+  color: dimgrey;
+  font-size: 2.5rem;
+  margin: 5px;
+}
+
 .brand-image {
   min-height: 120px;
   max-height: 220px;
