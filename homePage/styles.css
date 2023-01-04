@@ -65,7 +65,8 @@ img {
 }
 
 #paragraph h3,
-p {
+p,
+a {
   margin: 0;
   padding: 3% 1.5% 0.9% 1.5%;
 }
@@ -90,12 +91,19 @@ div p {
   padding: 0.33rem;
 }
 
-.nav-item{
-  height: 18vh;
-  border:1px solid red;
+div a {
+  /* color: dimgrey; */
+  text-decoration: none;
+  font-weight: 590;
+  padding: 0.33rem;
 }
 
-.nav-item > i{
+.nav-item {
+  height: 18vh;
+  border: 1px solid red;
+}
+
+.nav-item > i {
   color: dimgrey;
   font-size: 2.5rem;
   margin: 5px;
@@ -107,7 +115,7 @@ div p {
 }
 
 /*Common*/
-.text-bold{
+.text-bold {
   font-weight: bold;
-  font-size:1.125rem;
+  font-size: 1.125rem;
 }
